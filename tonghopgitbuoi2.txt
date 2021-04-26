@@ -1,0 +1,18 @@
+git buổi 2
+- Branch:branch dùng để phân nhánh và ghi lại luồng của lịch sử. Branch đã phân nhánh sẽ không ảnh hưởng đến branch khác nên có thể tiến hành nhiều thay đổi đồng thời trong cùng 1 repository.
+
+- Một số lệnh về nhánh trong git:
+Để kiểm tra nhánh hiện tại ta có lệnh:
++ git branch
+Để tạo một nhánh mới
++ git branch <namebranch>: 
+Thực hiện chuyển sang một nhánh khác
++ git checkout <branch>
+Có thể vừa tạo và vừa chuyển sang nhánh khác bằng lệnh
++ git checkout -b <name_branch>
+Ngoài ra chúng ta cũng có thể chuyển sang một nhánh khác bằng cách tạo:
++ git switch <name_branch>
+...
+Khi nhiệm vụ của một nhánh đã xong và chúng ta muốn tích hợp những thay đổi vào nhánh chính thì ta sẽ thực hiện gộp nhánh bằng cách
++ git merge <name_branch>
+- Pull request:Pull Request là chức năng cho phép bạn nói với người khác về các thay đổi bạn đã đẩy lên kho Github (Github repository) của người sở hữu code đó (chủ repository).
