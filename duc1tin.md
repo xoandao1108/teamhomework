@@ -1,4 +1,4 @@
-Commit -a   
+﻿Commit -a   
 +Cho biết tất cả các thay thay đổi của các  tracked file và commit chúng,nếu tạo
 +file mới chưa được tracked thì sẽ báo là đó là untracked file và 
 +phải thực hiện git add file đó vào trước khi muốn commit 
@@ -44,3 +44,8 @@ BL:
 Trả lời:
 
 Khi đó lịch sử commit của branch A là Commit1 - Commit2 (của branchA) - Commit1 - Commit2 - Commit3 - Commit4 (của branchB đã được merge)
+
+Nhận xét bài làm của Đức:
+- Bài làm của bạn khá đầy đủ và chi tiết 
+- Cần chia nội dung theo các mục như bài tập, lí thuyết để dễ dàng theo dõi.
+
